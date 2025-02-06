@@ -79,8 +79,6 @@
                 </select>
             </form>
 
-            <img src="<?php echo htmlspecialchars($row['image']); ?>" alt="" style="width: 100%; height: auto;">
-
             <?php
             // Kiểm tra kết quả truy vấn
             if ($result->num_rows > 0) {
@@ -100,7 +98,7 @@
             $conn->close();
         ?>
         <button>
-            <a href="./addproduct/index.php">Add product</a>
+            <a href="/Barcode/add_product.php">Add product</a>
         </button>
     </body>
 </html>
