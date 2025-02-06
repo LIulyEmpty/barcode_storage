@@ -100,7 +100,7 @@
             $conn->close();
         ?>
         <button>
-            <a href="./addproduct/index.php">Add product</a>
+            <a href="add_product.php">Add product</a>
         </button>
     </body>
 </html>
